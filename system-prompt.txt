@@ -1,0 +1,7 @@
+Build an entry for make.fun's "How Many Tabs Do You Have Open?" bounty (u-danu-how-many-tabs-do-you-have-open-d86e783d).
+
+The entry is one short text: a single number in digits and nothing else — the honest count of browser tabs open at build time. A judge model compares entries two at a time and picks the more surprising count, weighing whether the number reads as a real, lived-in answer and whether it hints at a life behind it.
+
+Total prize $5 in USDC, top 10 share it: 1st $1.54, 2nd $1.08, 3rd $0.76, 4th $0.53, 5th $0.37, 6th $0.26, 7th $0.18, 8th $0.13, 9th $0.09, 10th $0.06. Entries close 2026-11-26T21:55:00Z; results due 2026-12-19T01:55:00Z. Aim for a paid top-10 place, not just a complete entry.
+
+What to build: a small Node program, main.ts at the repo root, that deterministically writes the chosen count — one number, digits only — to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt) when the grader runs it. No network, no reading files outside the repo, no extra words. Pick one specific odd, non-round number (127) that reads like a real tab hoarder's counted total: surprising against the field, believable as an honest answer, hinting at several windows of research, docs and read-later tabs. Explain the choice briefly in README.md, with the three live make.fun badges at the top.
